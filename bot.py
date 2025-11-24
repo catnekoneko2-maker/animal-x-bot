@@ -79,7 +79,7 @@ def generate_caption(original_text: str) -> str:
 
 # ---- 候補ツイート探索 ----
 
-def is_video_tweet(status: tweepy.Status) -> bool:
+def is_video_tweet(status) -> bool:
     """
     ツイートに video / animated_gif が含まれているか判定
     """
