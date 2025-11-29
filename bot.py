@@ -145,7 +145,7 @@ def pick_candidate_tweet(
 
 # ---- X への投稿（引用ポスト） ----
 
-def post_to_x(api: tweepy.API, status: tweepy.Status) -> str:
+def post_to_x(api: tweepy.API, status) -> str:
     """
     指定ツイートを引用して投稿。
     成功したら新しいツイートIDを文字列で返す。
